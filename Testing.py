@@ -2,7 +2,7 @@
 
 import time
 
-#intro classic
+#intro classic    PART ONE
 name = input ("What is your name?")
 print("Hello, " + name, "Time to play hangman!")
 Print("")
@@ -17,5 +17,11 @@ time.sleep(0.5)
 word = "secret"
 
 # creats a variable with empty value
-guesses =''
+guesses = ''
 
+turns = 10       #number of turns
+
+
+#create a while loop    PART TWO
+
+while turns> 0:             #check if the  no. of turns more than 
